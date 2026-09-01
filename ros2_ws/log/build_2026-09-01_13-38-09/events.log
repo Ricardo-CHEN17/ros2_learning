@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000124] (cpp_parameters) JobQueued: {'identifier': 'cpp_parameters', 'dependencies': OrderedDict()}
+[0.000189] (cpp_parameters) JobStarted: {'identifier': 'cpp_parameters'}
+[0.006532] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'cmake'}
+[0.007550] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '/workspace/ros2_ws/src/cpp_parameters', '-DCMAKE_INSTALL_PREFIX=/workspace/ros2_ws/install/cpp_parameters'], 'cwd': '/workspace/ros2_ws/build/cpp_parameters', 'env': OrderedDict([('HOSTNAME', 'bc7ce84a6809'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('PWD', '/workspace/ros2_ws/build/cpp_parameters'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.079197] (cpp_parameters) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099765] (-) TimerEvent: {}
+[0.116499] (cpp_parameters) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.122742] (cpp_parameters) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.167321] (cpp_parameters) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.171256] (cpp_parameters) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.171569] (cpp_parameters) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.171975] (cpp_parameters) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.174492] (cpp_parameters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199864] (-) TimerEvent: {}
+[0.221761] (cpp_parameters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.225253] (cpp_parameters) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.225780] (cpp_parameters) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.225989] (cpp_parameters) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.229575] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.276767] (cpp_parameters) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299941] (-) TimerEvent: {}
+[0.318573] (cpp_parameters) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.337098] (cpp_parameters) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.339265] (cpp_parameters) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.343618] (cpp_parameters) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.349732] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.356826] (cpp_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.388713] (cpp_parameters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.390109] (cpp_parameters) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400267] (-) TimerEvent: {}
+[0.424969] (cpp_parameters) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.431474] (cpp_parameters) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.441447] (cpp_parameters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.446928] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.497239] (cpp_parameters) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.498018] (cpp_parameters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.500515] (-) TimerEvent: {}
+[0.544295] (cpp_parameters) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.545195] (cpp_parameters) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.573589] (cpp_parameters) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.600625] (-) TimerEvent: {}
+[0.615399] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.615861] (cpp_parameters) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.616149] (cpp_parameters) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.617401] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.620973] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.621200] (cpp_parameters) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.621917] (cpp_parameters) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.626269] (cpp_parameters) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.645768] (cpp_parameters) StdoutLine: {'line': b'-- Generating done\n'}
+[0.654909] (cpp_parameters) StdoutLine: {'line': b'-- Build files have been written to: /workspace/ros2_ws/build/cpp_parameters\n'}
+[0.658669] (cpp_parameters) CommandEnded: {'returncode': 0}
+[0.659126] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'build'}
+[0.659939] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/ros2_ws/build/cpp_parameters', '--', '-j15', '-l15'], 'cwd': '/workspace/ros2_ws/build/cpp_parameters', 'env': OrderedDict([('HOSTNAME', 'bc7ce84a6809'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('PWD', '/workspace/ros2_ws/build/cpp_parameters'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.681506] (cpp_parameters) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o\x1b[0m\n'}
+[0.700861] (-) TimerEvent: {}
+[0.801080] (-) TimerEvent: {}
+[0.901905] (-) TimerEvent: {}
+[1.003994] (-) TimerEvent: {}
+[1.104288] (-) TimerEvent: {}
+[1.204572] (-) TimerEvent: {}
+[1.304832] (-) TimerEvent: {}
+[1.405125] (-) TimerEvent: {}
+[1.505425] (-) TimerEvent: {}
+[1.605735] (-) TimerEvent: {}
+[1.709013] (-) TimerEvent: {}
+[1.736203] (cpp_parameters) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable minimal_param_node\x1b[0m\n'}
+[1.795659] (cpp_parameters) StdoutLine: {'line': b'[100%] Built target minimal_param_node\n'}
+[1.800247] (cpp_parameters) CommandEnded: {'returncode': 0}
+[1.801486] (cpp_parameters) JobProgress: {'identifier': 'cpp_parameters', 'progress': 'install'}
+[1.805293] (cpp_parameters) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/ros2_ws/build/cpp_parameters'], 'cwd': '/workspace/ros2_ws/build/cpp_parameters', 'env': OrderedDict([('HOSTNAME', 'bc7ce84a6809'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace/ros2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', ''), ('PWD', '/workspace/ros2_ws/build/cpp_parameters'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.807900] (cpp_parameters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.808644] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node\n'}
+[1.809090] (-) TimerEvent: {}
+[1.811721] (cpp_parameters) StdoutLine: {'line': b'-- Set runtime path of "/workspace/ros2_ws/install/cpp_parameters/lib/cpp_parameters/minimal_param_node" to ""\n'}
+[1.812493] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters\n'}
+[1.813944] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters\n'}
+[1.815371] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh\n'}
+[1.816453] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv\n'}
+[1.817401] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.sh\n'}
+[1.818507] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/environment/path.dsv\n'}
+[1.819544] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.bash\n'}
+[1.820708] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.sh\n'}
+[1.821710] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.zsh\n'}
+[1.822736] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/local_setup.dsv\n'}
+[1.823533] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.dsv\n'}
+[1.824873] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters\n'}
+[1.825810] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake\n'}
+[1.826807] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake\n'}
+[1.827653] (cpp_parameters) StdoutLine: {'line': b'-- Installing: /workspace/ros2_ws/install/cpp_parameters/share/cpp_parameters/package.xml\n'}
+[1.829633] (cpp_parameters) CommandEnded: {'returncode': 0}
+[1.847021] (cpp_parameters) JobEnded: {'identifier': 'cpp_parameters', 'rc': 0}
+[1.848081] (-) EventReactorShutdown: {}
