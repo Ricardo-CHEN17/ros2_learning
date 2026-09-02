@@ -1,0 +1,30 @@
+[0.010s] Invoking command in '/workspace/action_tutorials_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/action_tutorials_ws/build/action_tutorials_cpp -- -j15 -l15
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.054s] [ 50%] Built target fibonacci_action_server
+[0.092s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/fibonacci_action_server.cpp.o[0m
+[1.272s] [100%] [32m[1mLinking CXX shared library libaction_server.so[0m
+[1.356s] [100%] Built target action_server
+[1.364s] Invoked command in '/workspace/action_tutorials_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/action_tutorials_ws/build/action_tutorials_cpp -- -j15 -l15
+[1.366s] Invoking command in '/workspace/action_tutorials_ws/build/action_tutorials_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/action_tutorials_ws/build/action_tutorials_cpp
+[1.370s] -- Install configuration: ""
+[1.371s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server
+[1.374s] -- Set runtime path of "/workspace/action_tutorials_ws/install/action_tutorials_cpp/lib/action_tutorials_cpp/fibonacci_action_server" to ""
+[1.374s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/lib/libaction_server.so
+[1.381s] -- Set runtime path of "/workspace/action_tutorials_ws/install/action_tutorials_cpp/lib/libaction_server.so" to ""
+[1.382s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/ament_index/resource_index/package_run_dependencies/action_tutorials_cpp
+[1.383s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/ament_index/resource_index/parent_prefix_path/action_tutorials_cpp
+[1.385s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.sh
+[1.385s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/ament_prefix_path.dsv
+[1.386s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.sh
+[1.387s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/environment/path.dsv
+[1.388s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.bash
+[1.389s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.sh
+[1.390s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.zsh
+[1.391s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/local_setup.dsv
+[1.392s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.dsv
+[1.394s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/ament_index/resource_index/packages/action_tutorials_cpp
+[1.395s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/ament_index/resource_index/rclcpp_components/action_tutorials_cpp
+[1.396s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig.cmake
+[1.397s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/cmake/action_tutorials_cppConfig-version.cmake
+[1.398s] -- Installing: /workspace/action_tutorials_ws/install/action_tutorials_cpp/share/action_tutorials_cpp/package.xml
+[1.400s] Invoked command in '/workspace/action_tutorials_ws/build/action_tutorials_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/action_tutorials_ws/build/action_tutorials_cpp
