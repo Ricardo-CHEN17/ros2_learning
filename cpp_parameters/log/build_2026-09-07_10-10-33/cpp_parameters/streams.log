@@ -1,0 +1,72 @@
+[0.009s] Invoking command in '/workspace/cpp_parameters/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/cpp_parameters/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/workspace/cpp_parameters/install/cpp_parameters
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.071s] -- The CXX compiler identification is GNU 11.4.0
+[0.077s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.136s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.137s] -- Detecting C compile features
+[0.137s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.204s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.205s] -- Detecting CXX compile features
+[0.205s] -- Detecting CXX compile features - done
+[0.208s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.256s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.293s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.306s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.310s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.312s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.320s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.334s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.335s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.374s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.381s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.391s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.396s] -- Looking for pthread.h
+[0.453s] -- Looking for pthread.h - found
+[0.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.511s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.513s] -- Found Threads: TRUE  
+[0.535s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.584s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.585s] -- Configured cppcheck include dirs: 
+[0.585s] -- Configured cppcheck exclude dirs and/or files: 
+[0.586s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.589s] -- Added test 'lint_cmake' to check CMake code style
+[0.591s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.600s] -- Added test 'uncrustify' to check C / C++ code style
+[0.600s] -- Configured uncrustify additional arguments: 
+[0.601s] -- Added test 'xmllint' to check XML markup files
+[0.609s] -- Configuring done
+[0.640s] -- Generating done
+[0.652s] -- Build files have been written to: /workspace/cpp_parameters/build/cpp_parameters
+[0.656s] Invoked command in '/workspace/cpp_parameters/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/cpp_parameters/src/cpp_parameters -DCMAKE_INSTALL_PREFIX=/workspace/cpp_parameters/install/cpp_parameters
+[0.657s] Invoking command in '/workspace/cpp_parameters/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/cpp_parameters/build/cpp_parameters -- -j15 -l15
+[0.680s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o[0m
+[1.676s] [100%] [32m[1mLinking CXX executable minimal_param_node[0m
+[1.731s] [100%] Built target minimal_param_node
+[1.736s] Invoked command in '/workspace/cpp_parameters/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/cpp_parameters/build/cpp_parameters -- -j15 -l15
+[1.742s] Invoking command in '/workspace/cpp_parameters/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/cpp_parameters/build/cpp_parameters
+[1.744s] -- Install configuration: ""
+[1.745s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/lib/cpp_parameters/minimal_param_node
+[1.748s] -- Set runtime path of "/workspace/cpp_parameters/install/cpp_parameters/lib/cpp_parameters/minimal_param_node" to ""
+[1.748s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/launch
+[1.749s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/launch/cpp_parameters_launch.py
+[1.751s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/ament_index/resource_index/package_run_dependencies/cpp_parameters
+[1.752s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/ament_index/resource_index/parent_prefix_path/cpp_parameters
+[1.754s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.sh
+[1.755s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/environment/ament_prefix_path.dsv
+[1.756s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/environment/path.sh
+[1.757s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/environment/path.dsv
+[1.758s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/local_setup.bash
+[1.759s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/local_setup.sh
+[1.760s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/local_setup.zsh
+[1.761s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/local_setup.dsv
+[1.762s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/package.dsv
+[1.764s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/ament_index/resource_index/packages/cpp_parameters
+[1.765s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig.cmake
+[1.766s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/cmake/cpp_parametersConfig-version.cmake
+[1.767s] -- Installing: /workspace/cpp_parameters/install/cpp_parameters/share/cpp_parameters/package.xml
+[1.770s] Invoked command in '/workspace/cpp_parameters/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/cpp_parameters/build/cpp_parameters

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspace/ros2_ws/src/cpp_parameters
+CMAKE_SOURCE_DIR = /workspace/cpp_parameters/src/cpp_parameters
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspace/ros2_ws/build/cpp_parameters
+CMAKE_BINARY_DIR = /workspace/cpp_parameters/build/cpp_parameters
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /workspace/ros2_ws/build/cpp_parameters && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/ros2_ws/src/cpp_parameters /workspace/ros2_ws/src/cpp_parameters /workspace/ros2_ws/build/cpp_parameters /workspace/ros2_ws/build/cpp_parameters /workspace/ros2_ws/build/cpp_parameters/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /workspace/cpp_parameters/build/cpp_parameters && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspace/cpp_parameters/src/cpp_parameters /workspace/cpp_parameters/src/cpp_parameters /workspace/cpp_parameters/build/cpp_parameters /workspace/cpp_parameters/build/cpp_parameters /workspace/cpp_parameters/build/cpp_parameters/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

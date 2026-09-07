@@ -3,6 +3,7 @@
 #include <string>
 
 #include <rclcpp/rclcpp.hpp>
+#include <rcl_interfaces/msg/parameter_descriptor.hpp>
 
 using namespace std::chrono_literals;
 

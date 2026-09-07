@@ -1,4 +1,0 @@
-Invoking command in '/workspace/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/cpp_parameters -- -j15 -l15
-Invoked command in '/workspace/ros2_ws/build/cpp_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/cpp_parameters -- -j15 -l15
-Invoking command in '/workspace/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/cpp_parameters
-Invoked command in '/workspace/ros2_ws/build/cpp_parameters' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/ros2_ws/build/cpp_parameters
