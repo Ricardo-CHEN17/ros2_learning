@@ -1,0 +1,16 @@
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example//launch/my_script_launch.py
+/workspace/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/package_run_dependencies/cpp_launch_example
+/workspace/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/parent_prefix_path/cpp_launch_example
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.sh
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/ament_prefix_path.dsv
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.sh
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/environment/path.dsv
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.bash
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.sh
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.zsh
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/local_setup.dsv
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.dsv
+/workspace/launch_ws/install/cpp_launch_example/share/ament_index/resource_index/packages/cpp_launch_example
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig.cmake
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/cmake/cpp_launch_exampleConfig-version.cmake
+/workspace/launch_ws/install/cpp_launch_example/share/cpp_launch_example/package.xml
